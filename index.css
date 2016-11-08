@@ -80,8 +80,8 @@ body{
   left: 0;
   left: 5%;
   bottom: 0;
-  width: 220px;
-  height: 320px;
+  width: 66px;
+  height: 86px;
   position: absolute;
   display: inline-block;
   background-size: 100% 100%;
@@ -93,8 +93,8 @@ body{
 .poop{
   bottom: 0;
   left: 180%;
-  width: 360px;
-  height: 320px;
+  width: 96px;
+  height: 86px;
   position: absolute;
   display: inline-block;
   background-size: 100% 100%;
@@ -105,8 +105,8 @@ body{
 .sky1{
   bottom: 60%;
   left: 180%;
-  width: 400px;
-  height: 200px;
+  width: 160px;
+  height: 80px;
   position: absolute;
   display: inline-block;
   background-size: 100% 100%;
@@ -117,8 +117,8 @@ body{
 .sky2{
   bottom: 70%;
   left: 180%;
-  width: 400px;
-  height: 200px;
+  width: 160px;
+  height: 80px;
   position: absolute;
   display: inline-block;
   background-size: 100% 100%;
@@ -129,8 +129,8 @@ body{
 .fly{
   left: 500%;
   bottom: 43%;
-  width: 270px;
-  height: 180px;
+  width: 72px;
+  height: 48px;
   position: absolute;
   display: inline-block;
   background: url(images/fly_1.png);
