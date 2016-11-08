@@ -8,6 +8,7 @@ $(document).ready(function(){
     var $level = $('#level');
     var $score = $('#score');
     var $body = $('body');
+    var $inst = $('#inst');
     var $start = $('#start');
     var $title = $('#title');
     var $restart = $('#restart');
@@ -146,6 +147,7 @@ $(document).ready(function(){
     $start.click(function(){
       $start.css('display','none');
       $title.css('display','none');
+      $inst.css('display','none');
       managerCaller = setInterval(gameManager,0);
     });
     //Restarts the entire page from the cache
