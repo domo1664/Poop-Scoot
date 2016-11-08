@@ -1,0 +1,189 @@
+body{
+  background: white;
+  overflow-x: hidden;
+  transition: all 1s ease-in-out;
+}
+#start{
+  width: 10%;
+  height: 5%;
+  color: #254441;
+  font-size: 4vw;
+  cursor: pointer;
+  margin-top: 5%;
+  border-radius: 1vw;
+  background: #2EC4B6;
+  display: inline-block;
+  font-family: Helvetica;
+  border: solid .5vw #254441;
+}
+#title{
+  padding: 2%;
+  color: #254441;
+  margin-top: 5%;
+  font-size: 4vw;
+  border-radius: 1vw;
+  background: #2EC4B6;
+  display: inline-block;
+  font-family: Helvetica;
+  border: solid .5vw #254441;
+}
+#restart{
+  width: 15%;
+  height: 5%;
+  display: none;
+  color: #254441;
+  font-size: 4vw;
+  margin-top: 20%;
+  cursor: pointer;
+  border-radius: 1vw;
+  background: #2EC4B6;
+  font-family: Helvetica;
+  border: solid .5vw #254441;
+}
+#score{
+  left: 5%;
+  font-size: 4vw;
+  color: #0072BB;
+  position: absolute;
+  font-family: Helvetica;
+  text-shadow: 0 0 0.5vw #2F52E0;
+}
+#level{
+  transition: all 1s ease-in-out;
+}
+.gray{
+  filter: grayscale(1);
+  transition: all 1s ease-in-out;
+}
+.sepia{
+  filter: hue-rotate(90deg) sepia(1);
+  transition: all 1s ease-in-out;
+}
+.orange{
+  background: #E5C687;
+}
+.hue{
+  filter: hue-rotate(90deg);
+  transition: all 1s ease-in-out;
+}
+.blue{
+  background: skyblue;
+}
+.invert{
+  filter: invert(.8);
+  transition: all 1s ease-in-out;
+}
+.black{
+  background: black;
+}
+#player{
+  left: 0;
+  left: 5%;
+  bottom: 0;
+  width: 220px;
+  height: 320px;
+  position: absolute;
+  display: inline-block;
+  background-size: 100% 100%;
+  animation: run 1s infinite;
+  background-image: url(images/run_1.png);
+  -moz-background-size:100% 100%;
+  -webkit-background-size:100% 100%;
+}
+.poop{
+  bottom: 0;
+  left: 180%;
+  width: 360px;
+  height: 320px;
+  position: absolute;
+  display: inline-block;
+  background-size: 100% 100%;
+  -moz-background-size:100% 100%;
+  background-image: url(images/poop.png);
+  -webkit-background-size:100% 100%;
+}
+.sky1{
+  bottom: 60%;
+  left: 180%;
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  display: inline-block;
+  background-size: 100% 100%;
+  -moz-background-size:100% 100%;
+  background-image: url(images/sky_1.png);
+  -webkit-background-size:100% 100%;
+}
+.sky2{
+  bottom: 70%;
+  left: 180%;
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  display: inline-block;
+  background-size: 100% 100%;
+  -moz-background-size:100% 100%;
+  background-image: url(images/sky_2.png);
+  -webkit-background-size:100% 100%;
+}
+.fly{
+  left: 500%;
+  bottom: 43%;
+  width: 270px;
+  height: 180px;
+  position: absolute;
+  display: inline-block;
+  background: url(images/fly_1.png);
+  background-size: 100% 100%;
+  animation: fly 1s infinite;
+  -moz-background-size:100% 100%;
+  -webkit-background-size:100% 100%;
+}
+@keyframes fly {
+  0%{
+    background: url(images/fly_1.png);
+    background-size: 100% 100%;
+    -moz-background-size:100% 100%;
+    -webkit-background-size:100% 100%;
+  }
+  50%{
+    background: url(images/fly_2.png);
+    background-size: 100% 100%;
+    -moz-background-size:100% 100%;
+    -webkit-background-size:100% 100%;
+    bottom: 42%;
+  }
+  100%{
+    background: url(images/fly_3.png);
+    background-size: 100% 100%;
+    -moz-background-size:100% 100%;
+    -webkit-background-size:100% 100%;
+  }
+}
+@keyframes run {
+  0%{
+    background: url(images/run_1.png);
+    background-size: 100% 100%;
+    -moz-background-size:100% 100%;
+    -webkit-background-size:100% 100%;
+  }
+  33%{
+    background: url(images/run_2.png);
+    background-size: 100% 100%;
+    -moz-background-size:100% 100%;
+    -webkit-background-size:100% 100%;
+  }
+  66%{
+    background: url(images/run_3.png);
+    background-size: 100% 100%;
+    -moz-background-size:100% 100%;
+    -webkit-background-size:100% 100%;
+  }
+  100%{
+    background: url(images/run_4.png);
+    background-size: 100% 100%;
+    -moz-background-size:100% 100%;
+    -webkit-background-size:100% 100%;
+  }
+}
+
